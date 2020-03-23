@@ -23,3 +23,10 @@
 }
 */
 <p>注：fit-content是CSS3中给width属性新增的一个属性值，配合margin:0 auto可轻松实现水平居中，目前只支持Chrome和Firefox浏览器</p>
+<p>(4)使用flex实现水平居中</p>
+/*
+.son<br/>
+display: flex<br/>
+justify-content: center;<br/>
+}
+*/
