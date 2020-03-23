@@ -11,4 +11,14 @@
 ## CSS
 <p>1.16种方法实现水平居中和垂直居中</p>
 <p>水平居中</p>
-
+<p>(1)若是行内元素，给其父元素设置text-align:center,即可实现行内元素水平居中</p>
+<p>(2)若是块级元素，设置margin:0 auto</p>
+<p>(3)若子元素包含 flot:left属性，为了让子元素水平居中，则可让父元素宽度设置为fit-content,并且配合margin</p>
+/*
+.parent{
+  width:-moz-fit-content;
+  width:-webkit-fit-content;
+  width:fit-content;
+  margin:0 auto;
+}
+*/
