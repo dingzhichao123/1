@@ -15,10 +15,10 @@
 <p>(2)若是块级元素，设置margin:0 auto</p>
 <p>(3)若子元素包含 flot:left属性，为了让子元素水平居中，则可让父元素宽度设置为fit-content,并且配合margin</p>
 /*
-.parent{
-  width:-moz-fit-content;
-  width:-webkit-fit-content;
-  width:fit-content;
-  margin:0 auto;
+.parent{<br/>
+  width:-moz-fit-content;<br/>
+  width:-webkit-fit-content;<br/>
+  width:fit-content;<br/>
+  margin:0 auto;<br/>
 }
 */
